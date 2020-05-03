@@ -1,3 +1,7 @@
-module mypkg2
+package mypkg2
 
-go 1.14
+import "fmt"
+
+func MyFunc() {
+	fmt.Println("This is mypkg2~~~~~~")
+}
